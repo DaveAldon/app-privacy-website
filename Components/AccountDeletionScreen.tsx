@@ -33,7 +33,12 @@ export default function AccountDeletionScreen() {
       <p className='text-sm text-gray-500 dark:text-gray-400'>
         We need your email address to verify your identity when submitting a
         request to delete your Career Pathway account. We will reach out to you
-        at this email address to confirm your request.
+        at this email address to confirm your request. When your account is
+        deleted, the following information will be deleted with it:
+        <li>Your email address</li>
+        <li>Your name, if you added one</li>
+        <li>Your profile picture, if you added one</li>
+        <li>Your completed and in-progress assessments</li>
       </p>
       <form className='space-y-4' onSubmit={handleSubmit}>
         <div className='space-y-2'>
