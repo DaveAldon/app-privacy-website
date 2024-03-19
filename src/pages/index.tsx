@@ -4,10 +4,7 @@ import Head from 'next/head';
 import { useState } from 'react';
 
 const navigation = [
-  { name: 'Product', href: '#' },
-  { name: 'Features', href: '#' },
-  { name: 'Marketplace', href: '#' },
-  { name: 'Vantage', href: '/career-pathway-account-management' },
+  { name: 'Career Pathway', href: '/career-pathway-account-management' },
 ];
 
 export default function Home() {
@@ -16,15 +13,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Next.js and Tailwind CSS Template</title>
-        <meta
-          name='description'
-          content={`
-          A ready-to-use starter template for building fast and modern web applications.
-          Includes basic configurations and optimizations for
-          optimal performance and development experience.
-        `}
-        />
+        <title>Dave Aldon App Support</title>
         <meta name='viewport' content='width=device-width, initial-scale=1' />
         <link rel='icon' href='/favicon.ico' />
       </Head>
@@ -62,7 +51,7 @@ export default function Home() {
           >
             <div className='flex lg:flex-1'>
               <a href='#' className='-m-1.5 p-1.5'>
-                <h1 className='text-xl font-semibold'>Your Company</h1>
+                <h1 className='text-xl font-semibold'>Dave Aldon</h1>
               </a>
             </div>
             <div className='flex lg:hidden'>
@@ -86,20 +75,13 @@ export default function Home() {
                 </a>
               ))}
             </div>
-            <div className='hidden lg:flex lg:flex-1 lg:justify-end'>
-              <a
-                href='#'
-                className='text-sm font-semibold leading-6 text-gray-900'
-              >
-                Log in <span aria-hidden='true'>&rarr;</span>
-              </a>
-            </div>
+            <div className='hidden lg:flex lg:flex-1 lg:justify-end'></div>
           </nav>
           <Dialog as='div' open={mobileMenuOpen} onClose={setMobileMenuOpen}>
             <Dialog.Panel className='fixed inset-0 z-10 overflow-y-auto bg-white px-6 py-6 lg:hidden'>
               <div className='flex items-center justify-between'>
                 <a href='#' className='-m-1.5 p-1.5'>
-                  <h1 className='text-xl font-semibold'>Your Company</h1>
+                  <h1 className='text-xl font-semibold'>Dave Aldon</h1>
                 </a>
                 <button
                   type='button'
@@ -123,14 +105,7 @@ export default function Home() {
                       </a>
                     ))}
                   </div>
-                  <div className='py-6'>
-                    <a
-                      href='#'
-                      className='-mx-3 block rounded-lg py-2.5 px-3 text-base font-semibold leading-6 text-gray-900 hover:bg-gray-400/10'
-                    >
-                      Log in
-                    </a>
-                  </div>
+                  <div className='py-6'></div>
                 </div>
               </div>
             </Dialog.Panel>
@@ -139,44 +114,11 @@ export default function Home() {
         <main>
           <div className='relative px-6 lg:px-8'>
             <div className='mx-auto max-w-2xl py-32'>
-              <div className='hidden sm:mb-8 sm:flex sm:justify-center'>
-                <div className='relative rounded-full bg-white bg-opacity-70 py-1 px-3 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20'>
-                  Give us a star ⭐️{' '}
-                  <a
-                    href='https://github.com/Tittoh/nextjs-tailwind-ts'
-                    className='font-semibold text-indigo-600'
-                    target='_blank'
-                    rel='noreferrer'
-                  >
-                    <span className='absolute inset-0' aria-hidden='true' />
-                    GitHub <span aria-hidden='true'>&rarr;</span>
-                  </a>
-                </div>
-              </div>
+              <div className='hidden sm:mb-8 sm:flex sm:justify-center'></div>
               <div className='text-center'>
-                <h1 className='text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl'>
-                  Next.js 13 and Tailwind CSS Template
-                </h1>
                 <p className='mt-6 text-lg leading-8 text-gray-600'>
-                  A ready-to-use starter template for building fast and modern
-                  web applications. Includes basic configurations and
-                  optimizations for optimal performance and development
-                  experience.
+                  Support website for apps developed by Dave Aldon
                 </p>
-                <div className='mt-10 flex items-center justify-center gap-x-6'>
-                  <a
-                    href='#'
-                    className='rounded-md bg-indigo-600 px-3.5 py-1.5 text-base font-semibold leading-7 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600'
-                  >
-                    Get started
-                  </a>
-                  <a
-                    href='#'
-                    className='text-base font-semibold leading-7 text-gray-900'
-                  >
-                    Learn more <span aria-hidden='true'>→</span>
-                  </a>
-                </div>
               </div>
             </div>
             <div className='absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]'>
@@ -199,8 +141,8 @@ export default function Home() {
                     y2='474.645'
                     gradientUnits='userSpaceOnUse'
                   >
-                    <stop stopColor='#9089FC' />
-                    <stop offset={1} stopColor='#FF80B5' />
+                    <stop stopColor='#53459C' />
+                    <stop offset={1} stopColor='#209348' />
                   </linearGradient>
                 </defs>
               </svg>
