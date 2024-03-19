@@ -35,6 +35,7 @@ export default function AccountDeletionScreen() {
         request to delete your Career Pathway account. We will reach out to you
         at this email address to confirm your request. When your account is
         deleted, the following information will be deleted with it:
+        <br></br>
         <li>Your email address</li>
         <li>Your name, if you added one</li>
         <li>Your profile picture, if you added one</li>
