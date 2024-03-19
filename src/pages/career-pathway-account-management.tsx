@@ -15,9 +15,18 @@ export default function CareerPathwayAccountManagement() {
         <meta name='viewport' content='width=device-width, initial-scale=1' />
         <link rel='icon' href='/favicon.ico' />
       </Head>
-      <div className='flex flex-col gap-4 items-center justify-center h-screen'>
-        <img src='/vantage_logo.png' className='w-64' />
-        <AccountDeletionScreen />
+      <div className='flex flex-row gap-4 items-center justify-center h-screen'>
+        <div className='flex flex-col gap-4 items-center'>
+          <img src='/vantage_logo.png' className='w-64' />
+          <AccountDeletionScreen />
+        </div>
+        <div className='flex flex-col'>
+          <img src='/android_screenshot.png' className='w-64' />
+          <p className='w-64 text-sm text-gray-500 dark:text-gray-400 text-center'>
+            Alternatively, you can delete your account directly inside the app
+            via Settings {'->'} "Delete My Account"
+          </p>
+        </div>
       </div>
     </>
   );
